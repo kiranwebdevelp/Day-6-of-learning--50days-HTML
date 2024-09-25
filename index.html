@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day : 6 HTM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="header" class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Links and Navigation</h1>
+        </header>
+        <!-- Content Section -->
+        <section class="list-example">
+            <h2><strong>Creating Hyperlinks</strong></h2>
+            <div class="note">
+                <p><strong>Note:</strong> Hyperlinks are essential for navigating between different pages on the web. They can be created using the <code>&lt;a&gt;</code> tag in HTML.</p>
+            </div>
+            <div class="example">
+                <p><strong>Syntax:</strong></p>
+                <p><code>&lt;a href="URL"&gt;Link Text&lt;/a&gt;</code></p>
+            </div>
+            <div class="unordered-list">
+                <p><strong>Attributes:</strong></p>
+                <ul>
+                    <li><i class="fas fa-check"></i> <code>href</code>: specifies the URL of the link</li>
+                    <li><i class="fas fa-check"></i> <code>title</code>: specifies a tooltip or a title for the link</li>
+                    <li><i class="fas fa-check"></i> <code>target</code>: specifies where to open the linked document (e.g., <code>_blank</code> for a new tab)</li>
+                </ul>
+            </div>
+            <div class="unordered-list">
+                <p><strong>Examples:</strong></p>
+                <ul>
+                    <li><i class="fas fa-link"></i> <a href="https://www.example.com">Visit Example</a></li>
+                    <li><i class="fas fa-link"></i> <a href="about.html">About Us</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:user@example.com">Contact Us</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+1234567890">Call Us</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="list-example">
+            <h2><strong>Absolute vs. Relative URLs</strong></h2>
+            <div class="note">
+                <p><strong>Note:</strong> URLs can be either absolute or relative.</p>
+            </div>
+            <div class="example">
+                <p><strong>Absolute URLs:</strong></p>
+                <p>An absolute URL contains the full path, including the protocol (http, https), domain name, and path to the resource.</p>
+                <a href="https://www.example.com/page.html">Example Absolute URL</a>
+            </div>
+            <div class="unordered-list">
+                <p><strong>Advantages:</strong></p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Easy to understand and maintain</li>
+                    <li><i class="fas fa-check"></i> Works regardless of the current page's location</li>
+                </ul>
+            </div>
+            <div class="unordered-list">
+                <p><strong>Disadvantages:</strong></p>
+                <ul>
+                    <li><i class="fas fa-times"></i> Can be lengthy and cumbersome</li>
+                    <li><i class="fas fa-times"></i> May not be suitable for local development or testing</li>
+                </ul>
+            </div>
+            <div class="example">
+                <p><strong>Relative URLs:</strong></p>
+                <p>A relative URL is a partial path that is relative to the current page's location.</p>
+                <p><code>&lt;a href="page.html"&gt;Example Relative URL&lt;/a&gt;</code></p>
+            </div>
+            <div class="unordered-list">
+                <p><strong>Advantages:</strong></p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Shorter and more concise</li>
+                    <li><i class="fas fa-check"></i> Easier to maintain and update</li>
+                    <li><i class="fas fa-check"></i> Suitable for local development and testing</li>
+                </ul> 
+            </div>
+            <div class="unordered-list">
+                <p><strong>Disadvantages:</strong></p>
+                <ul>
+                    <li><i class="fas fa-times"></i> May not work if the current page is not in the same directory</li>
+                </ul>
+            </div>   
+            <div class="unordered-list">
+                <p><strong>Anchors</strong></p>
+                <p>Anchors allow you to link to a specific part of a page. This is particularly useful for long pages where you want to direct users to a specific section.</p>
+            </div>    
+            <div class="unordered-list">
+                <p><strong>Creating an Anchor</strong></p>
+                <a href="#section1">Go to Section 1</a>
+            </div>   
+            <div class="unordered-list">
+                <p><strong>Defining the Anchor</strong></p>
+                <h2 id="section1">Section 1</h2>
+            </div>    
+            <div class="unordered-list">
+                <p><strong>Examples:</strong></p>
+                <p><strong>Linking to an Anchor on the Same Page
+                </strong></p>
+                <a href="#contact">Contact Us</a>
+                <h2 id="contact">Contact Information</h2>     
+            </div>   
+
+            <div class="unordered-list">
+            <p><strong>Linking to an Anchor on a Different Page</strong></p>
+            <a href="about.html#team">Meet Our Team</a>
+            <h2 id="team">Our Team</h2>
+            </div>
+<div>
+                     <!-- Footer Section with Internal Link -->
+      <footer>
+        <p>Go back to the <a href="#header" class="back-to-top">top of the page</a></p>  
+    </footer>
+      <p class="copy" >© 2024 kiranwebdevelop. All Rights Reserved.</p>
+    
+</div>

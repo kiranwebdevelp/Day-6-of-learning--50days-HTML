@@ -1,0 +1,133 @@
+/* add new CSS styles for Day 6 */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}  
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.list-example {
+    margin-bottom: 20px;
+    background-color: rgb(243, 0, 93);
+    text-align: center;
+    padding: 10px;
+}
+.list-example ul, .list-example ol {
+    padding: 0;
+    list-style: none;
+}
+.list-example li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.list-example li:last-child {
+    border-bottom: none;
+}
+.note {
+    background-color: #ffffcc;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.example {
+    background-color: #a1f800;
+    padding: 10px;
+    border: 1px solid #1dd617e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.unordered-list {
+    background-color: #05e48e;
+    padding: 10px;
+    border: 1px solid #df0b2f;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.ordered-list {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.nested-list {
+    background-color: #cce5ff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.back-to-top {
+    background-color: #4CAF50; /* green background color */
+    color: #ffffff; /* white text color */
+    border: none; /* remove border */
+    padding: 10px 20px; /* add padding */
+    font-size: 15px; /* increase font size */
+    cursor: pointer; /* change cursor to pointer */
+    text-decoration: none; /* remove underline */
+    border-radius: 5px; /* add rounded corners */
+}
+  
+.back-to-top:hover {
+    background-color: #3e8e41; /* darker green background color on hover */
+}
+
+
+ /* Footer styling */
+ footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: bottom;
+    font-size: 10px; /* increase font size */
+}
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+.copy{
+    font-size: 15px;
+    line-height: 3.6;
+}
